@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">App</string>
+    <string-array name="process_status_array">
+        <item>AWAITED</item>
+        <item>FAILEDTOREACH</item>
+        <item>ONBOARDED</item>
+        <item>INPROCESS</item>
+        <item>COMPLETED</item>
+        <item>DENIED</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="process_status">Process Status</string>
+    <string name="update_status">Update Status</string>
+    <string name="back_to_admin_home">Back to Admin Home</string>
+    <string name="email">Email</string>
+    <string name="update_details">Update Details</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="geocode">Geocode</string>
+    <string name="coordinates_will_appear_here">Coordinates will appear here</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="reverse_geocode">Reverse Geocode</string>
+    <string name="address_will_appear_here">Address will appear here</string>
+    <string name="users">Users</string>
+    <string name="forward_geocoding">Forward Geocoding</string>
+    <string name="reverse_geocoding">Reverse Geocoding</string>
+    <string name="home">Home</string>
+    <string name="suite" />
+    <string name="zipcode" />
+</resources>

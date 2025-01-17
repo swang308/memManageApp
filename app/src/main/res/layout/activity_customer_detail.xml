@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:paddingTop="32dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:paddingTop="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Name TextView -->
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Address TextView -->
+        <TextView
+            android:id="@+id/address_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/phone_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Phone TextView -->
+        <TextView
+            android:id="@+id/phone_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/process_status_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/process_status"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="8dp" />
+
+        <!-- Process Status TextView -->
+        <TextView
+            android:id="@+id/process_status_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/process_status"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <!-- Status Spinner -->
+        <Spinner
+            android:id="@+id/status_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:padding="8dp" />
+
+        <!-- Update Status Button -->
+        <Button
+            android:id="@+id/update_status_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_status"
+            android:onClick="updateStatus" />
+
+        <!-- MapView for showing location -->
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+    </ScrollView>
+    <!-- BottomNavigationView for navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="32dp"
+    android:background="@color/black"
+    android:textColor="@color/beige"
+    >
+
+    <EditText
+        android:id="@+id/editTextStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="1750 Finch Ave E"
+        android:inputType="textPostalAddress"
+        android:hint="@string/street"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="North York"
+        android:inputType="textPostalAddress"
+        android:hint="@string/city" />
+
+    <EditText
+        android:id="@+id/editTextCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Canada"
+        android:inputType="textPostalAddress"
+        android:hint="@string/country" />
+
+    <Button
+        android:id="@+id/buttonGeocode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/geocode" />
+
+    <TextView
+        android:id="@+id/textViewCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="0, 0"
+        android:inputType="text"
+        android:text="@string/coordinates_will_appear_here"
+        tools:ignore="TextViewEdits" />
+</LinearLayout>

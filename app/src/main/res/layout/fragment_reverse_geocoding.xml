@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="32dp"
+    android:background="@color/black"
+    android:textColor="@color/beige">
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="0"
+        android:inputType="number"
+        android:hint="@string/latitude"/>
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="0"
+        android:inputType="number"
+        android:hint="@string/longitude" />
+
+    <Button
+        android:id="@+id/buttonReverseGeocode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reverse_geocode" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="1750 Finch Ave E, North York, ON M2J 2X5"
+        android:inputType="textPostalAddress"
+        android:text="@string/address_will_appear_here"
+        tools:ignore="TextViewEdits" />
+</LinearLayout>
+

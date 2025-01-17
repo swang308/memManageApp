@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="yellow_tone">#FFFFE0</color> <!-- AWAITED -->
+    <color name="light_red_tone">#FFCCCB</color> <!-- FAILED TO REACH -->
+    <color name="light_green_tone">#90EE90</color> <!-- ONBOARDED -->
+    <color name="mid_green_tone">#32CD32</color> <!-- IN PROCESS -->
+    <color name="dark_green_tone">#006400</color> <!-- COMPLETED -->
+    <color name="red_tone">#FF0000</color> <!-- DENIED -->
+    <color name="default_tone">#FFFFFF</color> <!-- Default -->
+
+    <!-- Neutral and Utility Colors -->
+    <color name="gray">#B7B7B7</color>
+    <color name="white_100">#F5F5F7</color>
+    <color name="grey_200">#E5E1DA</color>
+    <color name="cream_100">#F1F0E8</color>
+
+    <!-- Warm Tones -->
+    <color name="brown">#705C53</color>
+    <color name="pink">#EDDFE0</color>
+    <color name="pink_200">#E7CCCC</color>
+    <color name="beige">#EDE8DC</color>
+    <color name="orange">#DA8359</color>
+
+    <!-- Cool Tones -->
+    <color name="green_500">#A5B68D</color>
+    <color name="blue_700">#181C14</color>
+    <color name="blue_500">#89A8B2</color>
+    <color name="blue_200">#B3C8CF</color>
+    <color name="gray_700">#3C3D37</color>
+</resources>
